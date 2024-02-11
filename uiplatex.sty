@@ -1,0 +1,54 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{uiplatex}
+\newif\if@isSlide
+\DeclareOption{isSlide}{\@isSlidetrue}
+\ProcessOptions\relax
+\RequirePackage{luatexja}
+\RequirePackage{xcolor}
+\RequirePackage[most]{tcolorbox}
+\tcbuselibrary{
+    skins, breakable, xparse,
+}
+\RequirePackage{fontawesome5}
+\definecolor{uipmaincolor}{RGB}{35,55,59}
+\if@isSlide\RequirePackage{uiplatex_slide}\fi
+
+% tcolorbox
+% \usepackage{listings} or \tcbuselibrary{listings}
+\NewTotalTCBox{\commandbox}{ s v }
+{verbatim,colupper=white,colback=black!75!white,colframe=black}
+{\IfBooleanT{#1}{\textcolor{red}{\ttfamily\bfseries > }}%
+\lstinline[language=command.com,keywordstyle=\color{uipmaincolor!35!white}\bfseries]^#2^}
+
+\NewTColorBox{trititle}{m}{%
+    enhanced,title=#1,
+    colframe=uipmaincolor,colback=uipmaincolor!10!white,colbacktitle=uipmaincolor!10!white,
+    fonttitle=\bfseries,coltitle=black,attach boxed title to top center=
+    {yshift=-0.25mm-\tcboxedtitleheight/2,yshifttext=2mm-\tcboxedtitleheight/2},
+    boxed title style={boxrule=0.5mm,
+    frame code={ \path[tcb fill frame] ([xshift=-4mm]frame.west)
+    -- (frame.north west) -- (frame.north east) -- ([xshift=4mm]frame.east)
+    -- (frame.south east) -- (frame.south west) -- cycle; },
+    interior code={ \path[tcb fill interior] ([xshift=-2mm]interior.west)
+    -- (interior.north west) -- (interior.north east)
+    -- ([xshift=2mm]interior.east) -- (interior.south east) -- (interior.south west)
+    -- cycle;} }
+}
+\newtcolorbox{marker}[1][]{enhanced,
+    before skip=2mm,after skip=3mm,
+    boxrule=0.4pt,left=5mm,right=2mm,top=1mm,bottom=1mm,
+    colback=yellow!50,
+    colframe=yellow!20!black,
+    sharp corners,rounded corners=southeast,arc is angular,arc=3mm,
+    underlay={%
+    \path[fill=tcbcolback!80!black] ([yshift=3mm]interior.south east)--++(-0.4,-0.1)--++(0.1,-0.2);
+    \path[draw=tcbcolframe,shorten <=-0.05mm,shorten >=-0.05mm] ([yshift=3mm]interior.south east)--++(-0.4,-0.1)--++(0.1,-0.2);
+    \path[fill=yellow!50!black,draw=none] (interior.south west) rectangle node[white]{\Huge\bfseries !} ([xshift=4mm]interior.north west);
+    },
+    drop fuzzy shadow,#1}
+\newtcblisting{fullcommandshell}{colback=black,colupper=white,colframe=uipmaincolor!75!black,
+    listing only,listing options={style=tcblatex,language=sh},
+    every listing line={\textcolor{red}{\small\ttfamily\bfseries root \$> }}}
+\newtcblisting{commandshell}{colback=black,colupper=white,colframe=uipmaincolor!75!black,
+    listing only,listing options={style=tcblatex,language=sh},hbox,
+    every listing line*={\textcolor{red}{\small\ttfamily\bfseries root \$> }}}

@@ -1,0 +1,66 @@
+\documentclass[aspectratio=169]{beamer}
+\usepackage[isSlide]{uiplatex}
+\usepackage{lipsum}
+
+\title{template}
+\institute{}
+\author{}
+\date{\empty}
+
+\begin{document}
+    \maketitle
+
+    \begin{frame}{OUTLINE}{}
+        \tableofcontents
+    \end{frame}
+
+    \section{tcolorbox}
+
+    \begin{frame}{point}{}
+        \begin{point}{point}
+            This is point.
+        \end{point}
+
+        \begin{point}{point and tcblower}
+            This is point.
+            \tcblower
+            This is tcblower.
+        \end{point}
+    \end{frame}
+
+    \begin{frame}{marker}{}
+        \begin{marker}
+            This is marker.
+        \end{marker}
+    \end{frame}
+
+    \begin{frame}[fragile]{commandbox}{}
+        \commandbox*{cd "My Documents"} changes to directory \commandbox{My Documents}. \\
+        \commandbox*{dir /A} lists the directory content. \\
+        \commandbox*{copy example.txt d:\target} copies \commandbox{example.txt} to
+        \commandbox{d:\target}.
+    \end{frame}
+
+    \begin{frame}{trititle}{}
+        \begin{trititle}{trititle}
+            This is trititle.
+        \end{trititle}
+    \end{frame}
+
+    \begin{frame}[fragile]{commandshell}{}
+\begin{fullcommandshell}
+ls -al
+cd /usr/lib
+\end{fullcommandshell}
+\begin{commandshell}
+    ls -al
+    cd /usr/lib
+\end{commandshell}
+    \end{frame}
+
+    \begin{frame}[fragile]{fontawesome5}{}
+        \faGithub \\
+        \faRust \\
+        \faPython \\
+    \end{frame}
+\end{document}
