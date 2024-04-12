@@ -1,9 +1,51 @@
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesPackage{uiplatex}
+
 \newif\if@isSlide
+\newif\if@isEnglish
 \DeclareOption{isSlide}{\@isSlidetrue}
+\DeclareOption{isEnglish}{\@isEnglishtrue}
 \ProcessOptions\relax
+
 \RequirePackage{luatexja}
+
+% listing
+\RequirePackage{listings}
+% \lstset{
+%  	language = Python,
+%  	backgroundcolor={\color[gray]{.90}},
+%  	breaklines = true,
+%  	breakindent = 10pt,
+%  	basicstyle = \ttfamily\scriptsize,
+%  	commentstyle = {\itshape \color[cmyk]{1,0.4,1,0}},
+%  	classoffset = 0,
+%  	keywordstyle = {\bfseries \color[cmyk]{0,1,0,0}},
+%  	stringstyle = {\ttfamily \color[rgb]{0,0,1}},
+%  	frame = TBrl,
+%  	framesep = 5pt,
+%  	numbers = left,
+%  	stepnumber = 1,
+%  	numberstyle = \tiny,
+%  	tabsize = 4,
+%  	captionpos = t
+% }
+
+\RequirePackage{caption}
+\RequirePackage{subcaption}
+\captionsetup{
+    format=hang,
+    labelsep=quad,
+}
+\if@isEnglish
+    \captionsetup[figure]{name=Figure}
+    \captionsetup[table]{name=Table}
+    \RenewDocumentCommand{\lstlistingname}{}{Listing}
+\else
+    \captionsetup[figure]{name=図}
+    \captionsetup[table]{name=表}
+    \RenewDocumentCommand{\lstlistingname}{}{リスト}
+\fi
+
 \RequirePackage{xcolor}
 \RequirePackage[most]{tcolorbox}
 \tcbuselibrary{
@@ -15,6 +57,7 @@
 
 % tcolorbox
 % \usepackage{listings} or \tcbuselibrary{listings}
+\newtcbox{\mybox}{colframe=uipmaincolor}
 \NewTotalTCBox{\commandbox}{ s v }
 {verbatim,colupper=white,colback=black!75!white,colframe=black}
 {\IfBooleanT{#1}{\textcolor{red}{\ttfamily\bfseries > }}%

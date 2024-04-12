@@ -7,6 +7,8 @@
 }
 \useinnertheme{circles}
 
+\setbeamercolor{background canvas}{bg=white}
+
 % font
 \RequirePackage{amsmath,amssymb,amsthm}
 \RequirePackage{mathtools}
@@ -40,6 +42,7 @@
 ]
 \DeclareRobustCommand\sbseries{\fontseries{sb}\selectfont}
 \DeclareTextFontCommand{\textsb}{\sbseries}
+\RenewDocumentCommand{\emph}{m}{\textsf{\textgt{\textbf{#1}}}}
 
 % colorbox
 \NewTColorBox{point}{m}{

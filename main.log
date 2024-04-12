@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.7.7)  11 FEB 2024 16:15
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023)  (format=lualatex 2023.7.7)  16 FEB 2024 20:47
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -1049,6 +1049,79 @@ Package: luatexja-compat 2020-08-08 Compatibility with pTeX
 \hour=\count342
 \minute=\count343
 ))
+(/usr/local/texlive/2023/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count344
+\lst@gtempboxa=\box94
+\lst@token=\toks56
+\lst@length=\count345
+\lst@currlwidth=\dimen312
+\lst@column=\count346
+\lst@pos=\count347
+\lst@lostspace=\dimen313
+\lst@width=\dimen314
+\lst@newlines=\count348
+\lst@lineno=\count349
+\lst@maxwidth=\dimen315
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
+\c@lstnumber=\count350
+\lst@skipnumbers=\count351
+\lst@framebox=\box95
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2023/02/27 1.9 listings configuration
+))
+Package: listings 2023/02/27 1.9 (Carsten Heinz)
+
+(/usr/local/texlive/2023/texmf-dist/tex/luatex/luatexja/patches/lltjp-listings.
+sty
+(/usr/local/texlive/2023/texmf-dist/tex/luatex/luatexbase/luatexbase-cctb.sty
+Package: luatexbase-cctb 2015/10/04 v1.3 luatexbase interface to LuaTeX (legacy
+ subpackage) 
+)
+\ltj@lst@japanese@min=\count352
+\CatcodeTableLTJlistings=\catcodetable17
+\ltj@lst@frame@lslimit=\dimen316
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
+\lst@WFtoken=\toks57
+\lst@WF=\write5
+))
+(/usr/local/texlive/2023/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2023/03/12 v3.6j Customizing captions (AR)
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2023/03/12 v2.4 caption3 kernel (AR)
+\caption@tempdima=\dimen317
+\captionmargin=\dimen318
+\caption@leftmargin=\dimen319
+\caption@rightmargin=\dimen320
+\caption@width=\dimen321
+\caption@indent=\dimen322
+\caption@parindent=\dimen323
+\caption@hangindent=\dimen324
+Package caption Info: beamer document class detected.
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/caption/caption-beamer.sto
+File: caption-beamer.sto 2022/01/06 v2.0c Adaption of the caption package to th
+e beamer document classes (AR)
+))
+\c@caption@flags=\count353
+\c@continuedfloat=\count354
+Package caption Info: hyperref package is loaded.
+Package caption Info: Hyperref support is turned off
+(caption)             because hyperref has stopped early.
+Package caption Info: listings package is loaded.
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2023/02/19 v1.6 Sub-captions (AR)
+Package caption Info: New subtype `subfigure' on input line 239.
+\c@subfigure=\count355
+Package caption Info: New subtype `subtable' on input line 239.
+\c@subtable=\count356
+)
 (/usr/local/texlive/2023/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
 Package: tcolorbox 2023/06/19 version 6.0.4 text color boxes
 
@@ -1058,7 +1131,7 @@ Package: pgf 2023-01-15 v3.1.10 (3.1.10)
 (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.cod
 e.tex
 File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfnodeparttextbox=\box94
+\pgfnodeparttextbox=\box96
 )
 (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.
 tex
@@ -1069,16 +1142,16 @@ File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
 Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
 (Font)              scaled to size 9.6222pt on input line 209.
-\pgf@nodesepstart=\dimen312
-\pgf@nodesepend=\dimen313
+\pgf@nodesepstart=\dimen325
+\pgf@nodesepend=\dimen326
 )
 (/usr/local/texlive/2023/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
 -1-18.sty
 Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
 )) (/usr/local/texlive/2023/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2022-07-02 v1.5u LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks56
-\verbatim@line=\toks57
+\every@verbatim=\toks58
+\verbatim@line=\toks59
 \verbatim@in@stream=\read3
 )
 (/usr/local/texlive/2023/texmf-dist/tex/latex/environ/environ.sty
@@ -1087,34 +1160,34 @@ Package: environ 2014/05/04 v0.3 A new way to define environments
 (/usr/local/texlive/2023/texmf-dist/tex/latex/trimspaces/trimspaces.sty
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 ))
-\tcb@titlebox=\box95
-\tcb@upperbox=\box96
-\tcb@lowerbox=\box97
-\tcb@phantombox=\box98
-\c@tcbbreakpart=\count344
-\c@tcblayer=\count345
-\c@tcolorbox@number=\count346
-\tcb@temp=\box99
-\tcb@temp=\box100
+\tcb@titlebox=\box97
+\tcb@upperbox=\box98
+\tcb@lowerbox=\box99
+\tcb@phantombox=\box100
+\c@tcbbreakpart=\count357
+\c@tcblayer=\count358
+\c@tcolorbox@number=\count359
 \tcb@temp=\box101
 \tcb@temp=\box102
+\tcb@temp=\box103
+\tcb@temp=\box104
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/tcolorbox/tcbraster.code.tex
 Library (tcolorbox): 'tcbraster.code.tex' version '6.0.4'
-\c@tcbrastercolumn=\count347
-\c@tcbrasterrow=\count348
-\c@tcbrasternum=\count349
-\c@tcbraster=\count350
+\c@tcbrastercolumn=\count360
+\c@tcbrasterrow=\count361
+\c@tcbrasternum=\count362
+\c@tcbraster=\count363
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/tcolorbox/tcbskins.code.tex
 Library (tcolorbox): 'tcbskins.code.tex' version '6.0.4'
 (/usr/local/texlive/2023/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
 (/usr/local/texlive/2023/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
 (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
 Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
-\pgffor@iter=\dimen314
-\pgffor@skip=\dimen315
-\pgffor@stack=\toks58
-\pgffor@toks=\toks59
+\pgffor@iter=\dimen327
+\pgffor@skip=\dimen328
+\pgffor@stack=\toks60
+\pgffor@toks=\toks61
 ))
 (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
 e.tex
@@ -1123,34 +1196,34 @@ Package: tikz 2023-01-15 v3.1.10 (3.1.10)
 (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
 dlers.code.tex
 File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@plot@mark@count=\count351
-\pgfplotmarksize=\dimen316
+\pgf@plot@mark@count=\count364
+\pgfplotmarksize=\dimen329
 )
-\tikz@lastx=\dimen317
-\tikz@lasty=\dimen318
-\tikz@lastxsaved=\dimen319
-\tikz@lastysaved=\dimen320
-\tikz@lastmovetox=\dimen321
-\tikz@lastmovetoy=\dimen322
-\tikzleveldistance=\dimen323
-\tikzsiblingdistance=\dimen324
-\tikz@figbox=\box103
-\tikz@figbox@bg=\box104
-\tikz@tempbox=\box105
-\tikz@tempbox@bg=\box106
-\tikztreelevel=\count352
-\tikznumberofchildren=\count353
-\tikznumberofcurrentchild=\count354
-\tikz@fig@count=\count355
+\tikz@lastx=\dimen330
+\tikz@lasty=\dimen331
+\tikz@lastxsaved=\dimen332
+\tikz@lastysaved=\dimen333
+\tikz@lastmovetox=\dimen334
+\tikz@lastmovetoy=\dimen335
+\tikzleveldistance=\dimen336
+\tikzsiblingdistance=\dimen337
+\tikz@figbox=\box105
+\tikz@figbox@bg=\box106
+\tikz@tempbox=\box107
+\tikz@tempbox@bg=\box108
+\tikztreelevel=\count365
+\tikznumberofchildren=\count366
+\tikznumberofcurrentchild=\count367
+\tikz@fig@count=\count368
 
 (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
 e.tex
 File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfmatrixcurrentrow=\count356
-\pgfmatrixcurrentcolumn=\count357
-\pgf@matrix@numberofcolumns=\count358
+\pgfmatrixcurrentrow=\count369
+\pgfmatrixcurrentcolumn=\count370
+\pgf@matrix@numberofcolumns=\count371
 )
-\tikz@expandcount=\count359
+\tikz@expandcount=\count372
 
 (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibrarytopaths.code.tex
@@ -1165,7 +1238,7 @@ Package: tikzfill-common 2022/07/20 v1.0.0 Auxiliary code for tikzfill
 (/usr/local/texlive/2023/texmf-dist/tex/latex/tikzfill/tikzlibraryfill.image.co
 de.tex
 File: tikzlibraryfill.image.code.tex 2022/07/20 v1.0.0 Image filling library
-\l__tikzfill_img_box=\box107
+\l__tikzfill_img_box=\box109
 ))
 (/usr/local/texlive/2023/texmf-dist/tex/latex/tcolorbox/tcbskinsjigsaw.code.tex
 Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '6.0.4'
@@ -1176,9 +1249,9 @@ Library (tcolorbox): 'tcbbreakable.code.tex' version '6.0.4'
 Package: pdfcol 2022-09-21 v1.7 Handle new color stacks for pdfTeX (HO)
 )
 Package pdfcol Info: New color stack `tcb@breakable' = 1 on input line 23.
-\tcb@testbox=\box108
-\tcb@totalupperbox=\box109
-\tcb@totallowerbox=\box110
+\tcb@testbox=\box110
+\tcb@totalupperbox=\box111
+\tcb@totallowerbox=\box112
 )
 (/usr/local/texlive/2023/texmf-dist/tex/latex/tcolorbox/tcbhooks.code.tex
 Library (tcolorbox): 'tcbhooks.code.tex' version '6.0.4'
@@ -1186,56 +1259,17 @@ Library (tcolorbox): 'tcbhooks.code.tex' version '6.0.4'
 Library (tcolorbox): 'tcbtheorems.code.tex' version '6.0.4'
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/tcolorbox/tcbfitting.code.tex
 Library (tcolorbox): 'tcbfitting.code.tex' version '6.0.4'
-\tcbfitdim=\dimen325
-\tcb@lowerfitdim=\dimen326
-\tcb@upperfitdim=\dimen327
-\tcb@cur@hbadness=\count360
+\tcbfitdim=\dimen338
+\tcb@lowerfitdim=\dimen339
+\tcb@upperfitdim=\dimen340
+\tcb@cur@hbadness=\count373
 )
 (/usr/local/texlive/2023/texmf-dist/tex/latex/tcolorbox/tcblistingsutf8.code.te
 x
 Library (tcolorbox): 'tcblistingsutf8.code.tex' version '6.0.4'
 (/usr/local/texlive/2023/texmf-dist/tex/latex/tcolorbox/tcblistings.code.tex
 Library (tcolorbox): 'tcblistings.code.tex' version '6.0.4'
-(/usr/local/texlive/2023/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count361
-\lst@gtempboxa=\box111
-\lst@token=\toks60
-\lst@length=\count362
-\lst@currlwidth=\dimen328
-\lst@column=\count363
-\lst@pos=\count364
-\lst@lostspace=\dimen329
-\lst@width=\dimen330
-\lst@newlines=\count365
-\lst@lineno=\count366
-\lst@maxwidth=\dimen331
 
-(/usr/local/texlive/2023/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
-\c@lstnumber=\count367
-\lst@skipnumbers=\count368
-\lst@framebox=\box112
-)
-(/usr/local/texlive/2023/texmf-dist/tex/latex/listings/listings.cfg
-File: listings.cfg 2023/02/27 1.9 listings configuration
-))
-Package: listings 2023/02/27 1.9 (Carsten Heinz)
-
-(/usr/local/texlive/2023/texmf-dist/tex/luatex/luatexja/patches/lltjp-listings.
-sty
-(/usr/local/texlive/2023/texmf-dist/tex/luatex/luatexbase/luatexbase-cctb.sty
-Package: luatexbase-cctb 2015/10/04 v1.3 luatexbase interface to LuaTeX (legacy
- subpackage) 
-)
-\ltj@lst@japanese@min=\count369
-\CatcodeTableLTJlistings=\catcodetable17
-\ltj@lst@frame@lslimit=\dimen332
-
-(/usr/local/texlive/2023/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
-\lst@WFtoken=\toks61
-\lst@WF=\write5
-))
 (/usr/local/texlive/2023/texmf-dist/tex/latex/tcolorbox/tcblistingscore.code.te
 x
 Library (tcolorbox): 'tcblistingscore.code.tex' version '6.0.4'
@@ -1245,7 +1279,7 @@ Library (tcolorbox): 'tcbprocessing.code.tex' version '6.0.4'
 Package: shellesc 2023/04/15 v1.0d unified shell escape interface for LaTeX
 Package shellesc Info: Restricted shell escape enabled on input line 77.
 ))
-\c@tcblisting=\count370
+\c@tcblisting=\count374
 ))
 Package tcolorbox Info: Library `listingsutf8' is compatible with pdftex only. 
 Library `listings` is loaded instead. on input line 29.
@@ -1309,15 +1343,15 @@ Package: beamerinnerthememetropolis 2017/01/23 Metropolis inner theme
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count371
-\calc@Bcount=\count372
-\calc@Adimen=\dimen333
-\calc@Bdimen=\dimen334
+\calc@Acount=\count375
+\calc@Bcount=\count376
+\calc@Adimen=\dimen341
+\calc@Bdimen=\dimen342
 \calc@Askip=\skip65
 \calc@Bskip=\skip66
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count373
+\calc@Ccount=\count377
 \calc@Cskip=\skip67
 )
 \metropolis@titleseparator@linewidth=\skip68
@@ -1351,20 +1385,20 @@ Lua module: fontspec 2022/01/15 2.8a Font selection for XeLaTeX and LuaLaTeX
 (/usr/local/texlive/2023/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
 Package: fontspec-luatex 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaT
 eX
-\l__fontspec_script_int=\count374
-\l__fontspec_language_int=\count375
-\l__fontspec_strnum_int=\count376
-\l__fontspec_tmp_int=\count377
-\l__fontspec_tmpa_int=\count378
-\l__fontspec_tmpb_int=\count379
-\l__fontspec_tmpc_int=\count380
-\l__fontspec_em_int=\count381
-\l__fontspec_emdef_int=\count382
-\l__fontspec_strong_int=\count383
-\l__fontspec_strongdef_int=\count384
-\l__fontspec_tmpa_dim=\dimen335
-\l__fontspec_tmpb_dim=\dimen336
-\l__fontspec_tmpc_dim=\dimen337
+\l__fontspec_script_int=\count378
+\l__fontspec_language_int=\count379
+\l__fontspec_strnum_int=\count380
+\l__fontspec_tmp_int=\count381
+\l__fontspec_tmpa_int=\count382
+\l__fontspec_tmpb_int=\count383
+\l__fontspec_tmpc_int=\count384
+\l__fontspec_em_int=\count385
+\l__fontspec_emdef_int=\count386
+\l__fontspec_strong_int=\count387
+\l__fontspec_strongdef_int=\count388
+\l__fontspec_tmpa_dim=\dimen343
+\l__fontspec_tmpb_dim=\dimen344
+\l__fontspec_tmpc_dim=\dimen345
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
@@ -1387,7 +1421,7 @@ LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
 (load cache: extra_haranoajigothic-medium.luc)))
 (/usr/local/texlive/2023/texmf-dist/tex/luatex/luatexja/patches/lltjp-fontspec.
 sty)
-\c@fontsnotfound=\count385
+\c@fontsnotfound=\count389
 luaotfload | cache : Lookup cache loaded from /home/mizuno/.texlive2023/texmf-va
 r/luatex-cache/generic/names/luaotfload-lookup-cache.luc.(load cache: extra_fira
 sans-light.luc)(load cache: extra_firasans-lightitalic.luc)(load cache: extra_fi
@@ -1495,22 +1529,22 @@ Package: mathtools 2022/06/29 v1.29 mathematical typesetting tools
 (/usr/local/texlive/2023/texmf-dist/tex/latex/mathtools/mhsetup.sty
 Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
 )
-\g_MT_multlinerow_int=\count386
-\l_MT_multwidth_dim=\dimen338
+\g_MT_multlinerow_int=\count390
+\l_MT_multwidth_dim=\dimen346
 \origjot=\skip77
-\l_MT_shortvdotswithinadjustabove_dim=\dimen339
-\l_MT_shortvdotswithinadjustbelow_dim=\dimen340
-\l_MT_above_intertext_sep=\dimen341
-\l_MT_below_intertext_sep=\dimen342
-\l_MT_above_shortintertext_sep=\dimen343
-\l_MT_below_shortintertext_sep=\dimen344
+\l_MT_shortvdotswithinadjustabove_dim=\dimen347
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen348
+\l_MT_above_intertext_sep=\dimen349
+\l_MT_below_intertext_sep=\dimen350
+\l_MT_above_shortintertext_sep=\dimen351
+\l_MT_below_shortintertext_sep=\dimen352
 \xmathstrut@box=\box113
-\xmathstrut@dim=\dimen345
+\xmathstrut@dim=\dimen353
 )
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on inp
-ut line 14.
+ut line 16.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/tools/bm.sty
 Package: bm 2022/01/05 v1.2f Bold Symbol Support (DPC/FMi)
@@ -1534,12 +1568,12 @@ LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
 (/usr/local/texlive/2023/texmf-dist/tex/luatex/luatexja/addons/luatexja-fontspe
 c-27c.sty
 Package: luatexja-fontspec-27c 2020-04-04 fontspec support of LuaTeX-ja
-\g__ltj_fontspec_altnumber_int=\count387
+\g__ltj_fontspec_altnumber_int=\count391
 ))
 (/usr/local/texlive/2023/texmf-dist/tex/luatex/luatexja/addons/luatexja-preset.
 sty
 Package: luatexja-preset 2022-06-19 Japanese font presets
-\g__ltjpreset_applycount_int=\count388
+\g__ltjpreset_applycount_int=\count392
 
 
 Package luatexja-preset Warning: Japanese fonts will be scaled by
@@ -1731,7 +1765,7 @@ flt;+tlig;"
 (fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
 
 LaTeX Font Info:    Font shape `TU/OpenSans(0)/m/n' will be
-(Font)              scaled to size 10.51207pt on input line 29.
+(Font)              scaled to size 10.51207pt on input line 31.
 (load cache: extra_inconsolatazi4-regular.luc)
 
 Package fontspec Info: Could not resolve font "Inconsolatazi4/BI" (it probably
@@ -1795,32 +1829,32 @@ FontFace={sb}{n}{HaranoAjiGothic-Medium},FontFace={eb}{n}{HaranoAjiGothic-Heavy
 (fontspec)             series/shapes:
 (fontspec)              
 
-LaTeX Font Info:    Redeclaring symbol font `mincho' on input line 35.
+LaTeX Font Info:    Redeclaring symbol font `mincho' on input line 37.
 LaTeX Font Info:    Overwriting symbol font `mincho' in version `normal'
 (Font)                  JY3/HaranoAjiMincho-Regular.otf(0)/m/n --> JY3/HaranoAj
-iGothic(0)/m/n on input line 35.
+iGothic(0)/m/n on input line 37.
 LaTeX Font Info:    Overwriting symbol font `mincho' in version `bold'
 (Font)                  JY3/HaranoAjiMincho-Regular.otf(0)/b/n --> JY3/HaranoAj
-iGothic(0)/m/n on input line 35.
+iGothic(0)/m/n on input line 37.
 LaTeX Font Info:    Overwriting symbol font `mincho' in version `bold'
 (Font)                  JY3/HaranoAjiGothic(0)/m/n --> JY3/HaranoAjiGothic(0)/b
-/n on input line 35.
+/n on input line 37.
 LaTeX Font Info:    Font shape `JT3/HaranoAjiGothic(0)/m/n' will be
-(Font)              scaled to size 10.53629pt on input line 35.
+(Font)              scaled to size 10.53629pt on input line 37.
 LaTeX Font Info:    Font shape `JY3/HaranoAjiGothic(0)/m/n' will be
-(Font)              scaled to size 10.53629pt on input line 35.
-LaTeX Font Info:    Redeclaring math alphabet \mathgt on input line 40.
+(Font)              scaled to size 10.53629pt on input line 37.
+LaTeX Font Info:    Redeclaring math alphabet \mathgt on input line 42.
 LaTeX Font Info:    Overwriting math alphabet `\mathgt' in version `normal'
 (Font)                  JY3/HaranoAjiGothic-Regular.otf(0)/m/n --> JY3/HaranoAj
-iGothic(0)/m/n on input line 40.
+iGothic(0)/m/n on input line 42.
 LaTeX Font Info:    Overwriting math alphabet `\mathgt' in version `bold'
 (Font)                  JY3/HaranoAjiGothic-Regular.otf(0)/m/n --> JY3/HaranoAj
-iGothic(0)/m/n on input line 40.
+iGothic(0)/m/n on input line 42.
 )) (/usr/local/texlive/2023/texmf-dist/tex/latex/lipsum/lipsum.sty
 Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
-\g__lipsum_par_int=\count389
-\l__lipsum_a_int=\count390
-\l__lipsum_b_int=\count391
+\g__lipsum_par_int=\count393
+\l__lipsum_a_int=\count394
+\l__lipsum_b_int=\count395
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex))
 (./main.aux)
@@ -1892,16 +1926,16 @@ LaTeX Font Info:    ... okay on input line 10.
 
 (/usr/local/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count392
-\scratchdimen=\dimen346
+\scratchcounter=\count396
+\scratchdimen=\dimen354
 \scratchbox=\box114
-\nofMPsegments=\count393
-\nofMParguments=\count394
+\nofMPsegments=\count397
+\nofMParguments=\count398
 \everyMPshowfont=\toks64
-\MPscratchCnt=\count395
-\MPscratchDim=\dimen347
-\MPnumerator=\count396
-\makeMPintoPDFobject=\count397
+\MPscratchCnt=\count399
+\MPscratchDim=\dimen355
+\MPnumerator=\count400
+\makeMPintoPDFobject=\count401
 \everyMPtoPDFconversion=\toks65
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -2004,7 +2038,9 @@ Dictionary: translator-numbers-dictionary, Language: English
 tionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-\c@lstlisting=\count398
+\c@lstlisting=\count402
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
  (./main.nav)
 LaTeX Font Info:    Font shape `TU/OpenSans(0)/m/n' will be
 (Font)              scaled to size 5.76004pt on input line 10.
@@ -2105,30 +2141,32 @@ LaTeX Font Info:    Font shape `TU/OpenSans(0)/b/it' will be
 (Font)              scaled to size 5.76004pt on input line 17.
  [3
 
+] [4
+
 ]
 LaTeX Font Info:    Font shape `TU/OpenSans(0)/b/n' will be
-(Font)              scaled to size 10.51207pt on input line 29.
+(Font)              scaled to size 10.51207pt on input line 35.
 LaTeX Font Info:    Font shape `JT3/HaranoAjiGothic(0)/b/n' will be
-(Font)              scaled to size 10.53629pt on input line 29.
+(Font)              scaled to size 10.53629pt on input line 35.
 LaTeX Font Info:    Font shape `JY3/HaranoAjiGothic(0)/b/n' will be
-(Font)              scaled to size 10.53629pt on input line 29.
- [4
+(Font)              scaled to size 10.53629pt on input line 35.
+
+[5
 
 ]
 LaTeX Font Info:    Font shape `TU/OpenSans(0)/m/n' will be
-(Font)              scaled to size 23.88496pt on input line 35.
+(Font)              scaled to size 23.88496pt on input line 41.
 LaTeX Font Info:    Font shape `JT3/HaranoAjiGothic(0)/m/n' will be
-(Font)              scaled to size 23.94002pt on input line 35.
+(Font)              scaled to size 23.94002pt on input line 41.
 LaTeX Font Info:    Font shape `JY3/HaranoAjiGothic(0)/m/n' will be
-(Font)              scaled to size 23.94002pt on input line 35.
+(Font)              scaled to size 23.94002pt on input line 41.
 LaTeX Font Info:    Font shape `TU/OpenSans(0)/b/n' will be
-(Font)              scaled to size 23.88496pt on input line 35.
+(Font)              scaled to size 23.88496pt on input line 41.
 LaTeX Font Info:    Font shape `JT3/HaranoAjiGothic(0)/b/n' will be
-(Font)              scaled to size 23.94002pt on input line 35.
+(Font)              scaled to size 23.94002pt on input line 41.
 LaTeX Font Info:    Font shape `JY3/HaranoAjiGothic(0)/b/n' will be
-(Font)              scaled to size 23.94002pt on input line 35.
-
-[5
+(Font)              scaled to size 23.94002pt on input line 41.
+ [6
 
 ]
 \openout4 = main.vrb
@@ -2165,10 +2203,10 @@ Removing  `ltj.listings_unicode' from `process_input_buffer'.
 Removing  `ltj.process_input_buffer' from `process_input_buffer'.
 Inserting `ltj.listings_unicode' in `process_input_buffer'.
 Inserting `ltj.process_input_buffer' in `process_input_buffer'.
-Removing  `ltj.listings_unicode' from `process_input_buffer'.) [6
+Removing  `ltj.listings_unicode' from `process_input_buffer'.) [7
 
 ]
-[7
+[8
 
 ]
 \openout4 = main.vrb
@@ -2226,7 +2264,7 @@ Removing  `ltj.process_input_buffer' from `process_input_buffer'.
 Inserting `ltj.listings_unicode' in `process_input_buffer'.
 Inserting `ltj.process_input_buffer' in `process_input_buffer'. (./main.listing
 )
-Removing  `ltj.listings_unicode' from `process_input_buffer'.) [8
+Removing  `ltj.listings_unicode' from `process_input_buffer'.) [9
 
 ]
 \openout4 = main.vrb
@@ -2263,7 +2301,7 @@ LaTeX Font Info:    Font shape `JT3/HaranoAjiGothic(0)/regular/n' will be
 (Font)              scaled to size 10.53629pt on input line 3.
 LaTeX Font Info:    Font shape `JY3/HaranoAjiGothic(0)/regular/n' will be
 (Font)              scaled to size 10.53629pt on input line 3.
-) [9
+) [10
 
 ]
 \tf@nav=\write8
@@ -2289,27 +2327,29 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 )
 
 Here is how much of LuaTeX's memory you used:
- 41691 strings out of 477545
+ 43158 strings out of 477545
  125244,1977958 words of node,token memory allocated
- 7206 words of node memory still in use:
-   54 hlist, 8 vlist, 20 rule, 1 disc, 4 local_par, 39 glue, 6 kern, 12 penalty,
- 17 glyph, 2283 attribute, 71 glue_spec, 256 attribute_list, 4 write, 58 user_de
+ 7768 words of node memory still in use:
+   56 hlist, 8 vlist, 22 rule, 1 disc, 5 local_par, 46 glue, 7 kern, 14 penalty,
+ 23 glyph, 2472 attribute, 71 glue_spec, 274 attribute_list, 4 write, 59 user_de
 fined, 24 pdf_literal, 40 pdf_colorstack nodes
-   avail lists: 1:9,2:13822,3:903,4:1295,5:452,6:32,7:930,8:1,9:1345,10:7,11:41
- 61381 multiletter control sequences out of 65536+600000
+   avail lists: 1:9,2:13615,3:901,4:1294,5:451,6:31,7:917,8:1,9:1341,10:7,11:41
+ 62826 multiletter control sequences out of 65536+600000
  170 fonts using 166664807 bytes
- 135i,14n,170p,1936b,1477s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2023/texmf-dist/fonts/opentype/public/fontawesome5/FontAweso
-me5Brands-Regular-400.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/pub
-lic/inconsolata/Inconsolatazi4-Regular.otf></usr/local/texlive/2023/texmf-dist/f
-onts/opentype/public/inconsolata/Inconsolatazi4-Bold.otf></usr/local/texlive/202
-3/texmf-dist/fonts/truetype/ascender/opensans/OpenSans-Regular.ttf></usr/local/t
-exlive/2023/texmf-dist/fonts/truetype/ascender/opensans/OpenSans-Bold.ttf></usr/
-local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on main.pdf (9 pages, 45005 bytes).
+ 135i,14n,170p,1936b,1481s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2023/texmf-dist/fonts/opentype/public/haranoaji/HaranoAjiGot
+hic-Bold.otf></usr/local/texlive/2023/texmf-dist/fonts/opentype/public/fontaweso
+me5/FontAwesome5Brands-Regular-400.otf></usr/local/texlive/2023/texmf-dist/fonts
+/opentype/public/inconsolata/Inconsolatazi4-Regular.otf></usr/local/texlive/2023
+/texmf-dist/fonts/opentype/public/inconsolata/Inconsolatazi4-Bold.otf></usr/loca
+l/texlive/2023/texmf-dist/fonts/truetype/ascender/opensans/OpenSans-Regular.ttf>
+</usr/local/texlive/2023/texmf-dist/fonts/truetype/ascender/opensans/OpenSans-Bo
+ld.ttf></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10
+.pfb>
+Output written on main.pdf (10 pages, 49021 bytes).
 
-PDF statistics: 147 PDF objects out of 1000 (max. 8388607)
- 89 compressed objects within 1 object stream
- 20 named destinations out of 1000 (max. 131072)
+PDF statistics: 159 PDF objects out of 1000 (max. 8388607)
+ 97 compressed objects within 1 object stream
+ 22 named destinations out of 1000 (max. 131072)
  264 words of extra memory for PDF output out of 10000 (max. 100000000)
 
