@@ -8,6 +8,8 @@
 \ProcessOptions\relax
 
 \RequirePackage{luatexja}
+\RequirePackage{booktabs}
+\RequirePackage{adjustbox}
 
 % listing
 \RequirePackage{listings}
@@ -95,3 +97,26 @@
 \newtcblisting{commandshell}{colback=black,colupper=white,colframe=uipmaincolor!75!black,
     listing only,listing options={style=tcblatex,language=sh},hbox,
     every listing line*={\textcolor{red}{\small\ttfamily\bfseries root \$> }}}
+\newtcblisting{lstpython}{
+    colback=white,colframe=white,
+    listing only, listing options={
+        style=tcblatex,
+        language=Python,
+        backgroundcolor={\color[gray]{.90}},
+        breaklines = true,
+        breakindent = 10pt,
+        basicstyle = \ttfamily\scriptsize,
+        commentstyle = {\itshape \color[cmyk]{1,0.4,1,0}},
+        classoffset = 0,
+        keywordstyle = {\bfseries \color[cmyk]{0,1,0,0}},
+        stringstyle = {\ttfamily \color[rgb]{0,0,1}},
+        frame = TBrl,
+        framesep = 5pt,
+        numbers = left,
+        stepnumber = 1,
+        numberstyle = \tiny,
+        tabsize = 4,
+        captionpos = t
+        },
+    % every listing line={\textcolor{red}{\small\ttfamily\bfseries root \$> }},
+}

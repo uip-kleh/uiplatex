@@ -14,6 +14,26 @@
         \tableofcontents
     \end{frame}
 
+    \section{my tools}
+
+    \begin{frame}{myitemize}
+        \begin{myitemize}
+            \item This 
+            \item is
+            \item my 
+            \item itemize
+        \end{myitemize}
+    \end{frame}
+
+    \begin{frame}[fragile]{lstpython}
+        \begin{marker}
+            fragile環境に設定する.
+        \end{marker}
+        \begin{lstpython}
+print("hello, world")
+        \end{lstpython}
+    \end{frame}
+
     \section{tcolorbox}
 
     \begin{frame}{mybox}{}
@@ -34,6 +54,12 @@
         \end{point}
     \end{frame}
 
+    \begin{frame}{trititle}{}
+        \begin{trititle}{trititle}
+            This is trititle.
+        \end{trititle}
+    \end{frame}
+
     \begin{frame}{marker}{}
         \begin{marker}
             This is marker.
@@ -41,16 +67,13 @@
     \end{frame}
 
     \begin{frame}[fragile]{commandbox}{}
+        \begin{marker}
+            fragile環境に設定する.
+        \end{marker}
         \commandbox*{cd "My Documents"} changes to directory \commandbox{My Documents}. \\
         \commandbox*{dir /A} lists the directory content. \\
         \commandbox*{copy example.txt d:\target} copies \commandbox{example.txt} to
         \commandbox{d:\target}.
-    \end{frame}
-
-    \begin{frame}{trititle}{}
-        \begin{trititle}{trititle}
-            This is trititle.
-        \end{trititle}
     \end{frame}
 
     \begin{frame}[fragile]{commandshell}{}
@@ -64,12 +87,28 @@ cd /usr/lib
 \end{commandshell}
     \end{frame}
 
+    \section{appendix}
+
     \begin{frame}[fragile]{fontawesome5}{}
         \faGithub \\
         \faRust \\
         \faPython \\
 
-        \emph{hogeほげ}
+    \end{frame}
+
+    \section*{bib}
+
+    \begin{frame}[noframenumbering, allowframebreaks]{参考文献}{}
+        \mybox{ref.bibに書き込む.}
+        \begin{enumerate}
+            \item lualatex main.tex
+            \item pbibtex main
+            \item lualatex main.tex
+        \end{enumerate}
+        % \scriptsize
+        \beamertemplatetextbibitems
+        \bibliographystyle{junsrt}
+        \bibliography{ref}
     \end{frame}
 
 \end{document}
