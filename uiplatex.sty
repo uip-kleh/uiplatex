@@ -59,7 +59,7 @@
 
 % tcolorbox
 % \usepackage{listings} or \tcbuselibrary{listings}
-\newtcbox{\mybox}{colframe=uipmaincolor}
+\newtcolorbox{mybox}{colback=white, colframe=uipmaincolor}
 \NewTotalTCBox{\commandbox}{ s v }
 {verbatim,colupper=white,colback=black!75!white,colframe=black}
 {\IfBooleanT{#1}{\textcolor{red}{\ttfamily\bfseries > }}%
